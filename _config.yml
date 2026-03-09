@@ -6,6 +6,11 @@ exclude: [bibble, README.md, Makefile, screenshot.png]
 # Base pathname for links.
 base: ''
 
+# make pages for the _projects folder
+collections:
+  projects:
+    output: true
+    
 # Navigation bar links.
 navigation:
   - title: 主页
