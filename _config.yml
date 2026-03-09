@@ -3,16 +3,8 @@ url: https://lighter0206.github.io/yanweifan.github.io/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
-# colorize code snippets with the pygments module
-highlighter: pygments
-
 # Base pathname for links.
 base: ''
-
-# make pages for the _projects folder
-collections:
-  projects:
-    output: true
 
 # Navigation bar links.
 navigation:
